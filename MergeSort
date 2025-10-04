@@ -1,6 +1,6 @@
 public class MergeSort
 {
-    public static void Conquour(int arr[] , int si , int mid , int ei)
+    public static void conquour(int arr[] , int si , int mid , int ei)
     {
 
         int merged [] = new int [ei-si+1];
@@ -34,7 +34,7 @@ public class MergeSort
         }
 }
 
-public static void didvide (int arr[] , int si , int ei)
+public static void divide (int arr[] , int si , int ei)
 {
 if(si >= ei)
     {
@@ -53,11 +53,12 @@ public static void main(String args[])
     int n = arr.length;
     divide(arr,0,n-1);
 
+    System.out.println("The elements are sorted now:");
     for(int i=0 ; i< n ; i++)
     {
-        System.out.println(arr[i]+");
+        System.out.println(arr[i]+"");
     }
-System.out.println();
+}
 }
 
 
